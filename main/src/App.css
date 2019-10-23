@@ -27,18 +27,53 @@
   height: 422px;
   display: flex;
   flex-direction: column;
+  text-align: center;
 }
 
 .titleHeader {
   margin: auto;
   margin-bottom: 0%;
-  text-align: center; 
   color: white;
 }
 
 .titleSubheader {
   margin: auto;
   margin-top: 0%;
-  text-align: center; 
   color: white;
+ }
+
+ .description {
+   height: 300px;
+   width: 100%;
+   background-color: black;
+   text-align: center;
+ }
+
+ .descriptionHeader{
+  color: white;
+  width: 100%;
+ }
+
+ .descriptionContent {
+  display: flex;
+  flex-direction: row;
+  margin:auto;
+ }
+
+ .descriptionParagraph {
+  color: white;
+  font-size: .5em;
+  text-align: left;
+  vertical-align: middle;
+ }
+
+ .descriptionImage {
+   width: 20%;
+   margin-right: 5%;
+   margin-left: 5%;
+   border-radius: 50%;
+ }
+
+ .descriptionText {
+   flex-direction: column;
  }

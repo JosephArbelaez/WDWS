@@ -5,7 +5,7 @@ class Title extends React.Component {
         return (
             <div className="title">
                 <h1 className="titleHeader">JC Dev</h1>
-                <h4 className="titleSubheader">Web Design and Consulting</h4>
+                <h4 className="titleSubheader">Web Design and Brand Consultation</h4>
             </div>
         )
     }
