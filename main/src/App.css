@@ -62,7 +62,6 @@
  .pricing {
    background-color: navy;
    text-align: center;
-   height: 400px;
  }
 
  .pricingHeader {
@@ -71,4 +70,19 @@
 
  .pricingSubheader {
    color: white;
+ }
+
+ .autoCardList {
+   display: flex;
+   flex-direction: row;
+ }
+ .card {
+   background: whitesmoke;
+   border-radius: 15px;
+   padding: 3px;
+   width: 20%;
+   box-shadow:rgba(64, 120, 153, .3) 5px 10px;
+   margin: auto;
+   display: flex;
+   flex-direction: column;
  }
