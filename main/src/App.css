@@ -62,7 +62,7 @@
  .pricing {
    background-color: navy;
    text-align: center;
-   height: 400px;
+   height: 500px;
  }
 
  .pricingHeader {
@@ -71,4 +71,57 @@
 
  .pricingSubheader {
    color: white;
+ }
+
+ .autoCardList {
+   display: flex;
+   flex-direction: row;
+ }
+ .card {
+   background: whitesmoke;
+   border-radius: 15px;
+   padding: 3px;
+   width: 20%;
+   box-shadow:rgba(64, 120, 153, .3) 5px 10px;
+   margin: auto;
+   display: flex;
+   flex-direction: column;
+ }
+
+ .about {
+   margin: auto;
+   height: 400px;
+   background-color: white;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+ }
+ .chris {
+   display:flex;
+   flex-direction: row;
+   font-size: .5em;
+ }
+ .chrisPic {
+  height: 150px;
+  border-radius: 50%;
+  margin: auto;
+ }
+ .chrisText {
+   text-align: left;
+   width: 40%;
+ }
+ .joe {
+  display:flex;
+  flex-direction: row;
+  font-size: .5em;
+}
+.joeText {
+  flex-direction: row;
+  width: 40%;
+  text-align: right;
+}
+ .joePic {
+  height: 150px;
+  border-radius: 50%;
+  margin: auto;
  }

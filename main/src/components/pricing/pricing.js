@@ -1,6 +1,6 @@
 import React from 'react';
-import Auto from './auto';
-import Custom from './custom';
+import Auto from '../auto';
+import Custom from '../custom';
 
 const initialState = {
     method: 'auto'

@@ -1,7 +1,8 @@
 import React from 'react';
 import Title from './title';
 import Description from './description';
-import Pricing from './pricing';
+import Pricing from './pricing/pricing';
+import About from './about';
 
 class Content extends React.Component {
     render() {
@@ -10,6 +11,7 @@ class Content extends React.Component {
                 <Title />
                 <Description />
                 <Pricing />
+                <About />
             </div>
         )
     }
