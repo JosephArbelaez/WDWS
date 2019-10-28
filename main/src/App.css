@@ -62,6 +62,7 @@
  .pricing {
    background-color: navy;
    text-align: center;
+   height: 500px;
  }
 
  .pricingHeader {
@@ -85,4 +86,42 @@
    margin: auto;
    display: flex;
    flex-direction: column;
+ }
+
+ .about {
+   margin: auto;
+   height: 400px;
+   background-color: white;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+ }
+ .chris {
+   display:flex;
+   flex-direction: row;
+   font-size: .5em;
+ }
+ .chrisPic {
+  height: 150px;
+  border-radius: 50%;
+  margin: auto;
+ }
+ .chrisText {
+   text-align: left;
+   width: 40%;
+ }
+ .joe {
+  display:flex;
+  flex-direction: row;
+  font-size: .5em;
+}
+.joeText {
+  flex-direction: row;
+  width: 40%;
+  text-align: right;
+}
+ .joePic {
+  height: 150px;
+  border-radius: 50%;
+  margin: auto;
  }

@@ -7,6 +7,7 @@ const Card = () => {
             <p className = "pages">* Does Stuff</p>
             <p className = "features">* Does Stuff</p>
             <p className = "cost">$100</p>
+            <button className = "autoButton">Start</button>
         </div>
     )
 }
